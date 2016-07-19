@@ -94,5 +94,6 @@ module ActiveModel
     def persisted?
       false
     end
+    
   end
 end
