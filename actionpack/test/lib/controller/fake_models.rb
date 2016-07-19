@@ -6,6 +6,7 @@ class Customer < Struct.new(:name, :id)
 
   undef_method :to_json
 
+
   def to_xml(options={})
     if options[:builder]
       options[:builder].name name
