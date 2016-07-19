@@ -8,6 +8,7 @@
     *Matthew Wear*
 
 *   Close hijacked socket when connection is shut down.
+*   
 
     Fixes #25613.
 
